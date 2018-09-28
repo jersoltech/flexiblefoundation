@@ -1,0 +1,276 @@
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0rem;
+  text-transform: uppercase;
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px; }
+
+p {
+  margin: 0 0 1.5rem; }
+
+a {
+  color: #26a5d3; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #16617d; }
+
+.navbar {
+  font-size: 12px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: rgba(231, 41, 16, 0.856); }
+
+.navbar-brand {
+  font-size: 15px;
+  font-weight: 100; }
+
+.navbar-brand:focus {
+  outline: none; }
+
+.navbar-custom a {
+  font-weight: 400;
+  color: #f4f4f4; }
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out; }
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  outline: none;
+  background-color: rgba(235, 171, 134, 0.5);
+  border: 1px solid #EF233C;
+  border-radius: 3px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 1.4rem 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out; }
+  .top-nav-collapse {
+    padding: 0;
+    background-color: rgba(231, 41, 16, 0.856); }
+  .navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(223, 10, 10, 0.904); } }
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 6rem 0;
+  text-align: center;
+  color: #f4f4f4;
+  background: url(../img/crypton1.jpg) no-repeat bottom center scroll;
+  background-color: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+footer {
+  margin-top: .20rem;
+  padding-top: 1rem;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(231, 41, 16, 0.856); }
+
+footer span {
+  padding: 0.3em 0.7em;
+  color: white;
+  background-color: #242423;
+  border-radius: 50%;
+  margin: 13px 3px;
+  transition: all 500ms ease; }
+
+footer span:hover {
+  color: #3F494C;
+  background-color: white; }
+
+.page-scroll {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -webkit-transform;
+  -moz-transition-duration: 1s; }
+
+.content-box .item {
+  padding: 10px 0; }
+
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100% !important; }
+
+.content-box .item img {
+  display: block;
+  width: 100% !important;
+  height: auto;
+  transition: all 0.5s ease; }
+
+.content-box .item .item-content {
+  background: #fff;
+  padding: 25px;
+  border: 1px solid #ddd; }
+
+.content-box .item span {
+  font-size: 15px;
+  font-weight: 500px;
+  color: #000; }
+
+.content-box .item:hover .zoom-container img {
+  transform: scale(1.25) rotate(5deg); }
+
+.content-box .item:hover .item-content {
+  background: #f3542d;
+  color: #fff;
+  transition: all 600ms ease; }
+
+.content-box .item:hover .item-content p, .content-box .item:hover .item-content span {
+  color: #fff; }
+
+.content-box .item:hover a.btn {
+  color: #fff;
+  border-color: #fff; }
+
+.header {
+  text-align: center;
+  margin: 60px auto 50px; }
+
+#aim {
+  padding: 0; }
+
+.heading {
+  background: #000;
+  border-right: 6px solid rgba(231, 41, 16, 0.856);
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: normal;
+  height: 50px;
+  line-height: 42px;
+  padding: 10px 20px;
+  position: relative;
+  text-transform: uppercase;
+  transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+  transform-style: flat; }
+
+.heading span {
+  display: block;
+  transform: rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+  transform-style: flat; }
+
+@media (max-width: 767px) {
+  .heading {
+    margin: 10px auto;
+    font-size: 15px !important;
+    height: 50px; } }
+
+.block-icon-left {
+  overflow: auto; }
+
+.block-icon-left h1, .block-icon-left h2, .block-icon-left h3, .block-icon-left h4, .block-icon-left h5, .block-icon-left h6 {
+  margin: 0 0 .75rem;
+  padding: 0;
+  font-size: 1.4rem; }
+
+.block-icon-left .icon-content {
+  float: left;
+  width: 70%; }
+
+.block-icon-left .icon {
+  float: left;
+  width: 30%;
+  margin-top: .75rem; }
+
+.border-animation::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background-color: #EF233C;
+  position: relative;
+  display: block;
+  top: 3px;
+  transition: all 400ms ease; }
+
+.border-animation:hover::after {
+  width: 100%; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+#ff label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+#ff input, textarea {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  color: #000;
+  border: 1px solid #afafaf;
+  font-size: 16px;
+  background: #fff; }
+
+#ff input {
+  padding: 12px;
+  margin: 5px 0 10px 0;
+  max-height: 45px; }
+
+#ff textarea {
+  padding: 10px;
+  margin: 5px 0 25px 0;
+  height: 200px; }
+
+#ff .btn {
+  max-width: 25%; }
+
+#ff .btn:hover {
+  opacity: 0.7; }
+
+.btn {
+  border: 3px solid #d2583e;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Racing sans one';
+  line-height: 1.4;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  transform: rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+  vertical-align: top;
+  white-space: nowrap; }
